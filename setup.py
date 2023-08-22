@@ -5,7 +5,7 @@ setup(
     py_modules = ['CipherAdapter'],
     test_suite = 'tests',
 
-    install_requires = ['PyCrypto>=2.6', 'twofish>=0.3.0'],
+    install_requires = ['pycryptodomex>=3.9', 'twofish>=0.3.0'],
 
     author = "Willem Hengeveld",
     author_email = "itsme@xs4all.nl",
